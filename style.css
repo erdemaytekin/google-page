@@ -1,73 +1,96 @@
-.navbar{
-display:flex;
-justify-content:space-between;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-a{
-    text-decoration:none;
-    color:gray;
+.left-side {
+  float: left;
 }
-.container{
-    /* background-color: antiquewhite; */
-}
-.signin{
-background-color:#4285f4;
-color:white;
-border:none;
-font-size:1rem;
-padding:5px 10px;
-border-radius:5px;
+.right-side {
+  float: right;
 }
 
-.left-side, .right-side{
-   padding:1rem; 
+a {
+  text-decoration: none;
+  padding: 10px;
+  color: graY;
 }
-a, .right-side img, .right-side button{
-margin:10px;
 
+#signin {
+  margin: 5px;
+  background-color: rgb(42, 154, 245);
+  color: white;
+  padding: 7px;
+  border: none;
+  margin-right: 10px;
 }
-.main{
-/* margin-left:auto;
-flex-direction:column;
-justify-content:center; */
-margin-top:10rem;
-text-align:center;
 
+/* .img-main {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  width: auto;
+} */
+.main {
+  clear: both;
+  width: 100%;
+}
 
-display:flex;
-flex-direction:column;
-margin-top:10rem;
-justify-content:center;
+.googlephoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
 }
-.bar{
-    border:1px solid gray;
-    width:600px;
-    height:40px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:5px 10px;
-    border-radius:30px;
-  margin-left:60rem;
-    
-}
-input{
-    width:500px;
-    height:40;
-    border:none;
 
+form {
+  text-align: center;
+  background-color: gray;
 }
-.bar img{
-width:30 px;
-height:30px;
-}
-.btns{
-    margin-top:2rem;
-}
-.btn-type{
-    margin:30px  10px;
-    padding:;
-    border:none;
-    width:150px;
 
+.searchbar {
+  height: 45px;
+  border: none;
+  width: 500px;
+  font-size: 16px;
+  outline: none;
+}
+.bar {
+  margin: 0 auto;
+  width: 600px;
+  border-radius: 30px;
+  border: 1px solid #dcdcdc;
+}
+
+.voice {
+  height: 20px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+.search {
+  height: 20px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+
+.btns {
+  text-align: center;
+}
+
+.btn-type {
+  margin: 30px 10px;
+  padding: 10px;
+  border: none;
+  width: 150px;
+}
+
+.text {
+  text-align: center;
+}
+
+p {
+  margin-top: 20px;
 }
